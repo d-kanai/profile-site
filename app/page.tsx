@@ -15,7 +15,7 @@ const careers = [
     year: "2020",
     title: "Scrum導入支援とCSD研修の提供",
     body:
-      "事業会社でエンジニアとしてScrumを実践しつつ、Scrum Alliance認定 CSD Educator / Trainerライセンスを取得。CSD研修の提供、顧客企業へのScrum導入支援に従事。",
+      "事業会社でエンジニアとしてScrumを実践しつつ、シンガポールのTrainer 2名から推薦状を受け、Scrum Alliance認定 CSD Educator / Trainerライセンスを取得。CSD研修の提供、顧客企業へのScrum導入支援に従事。",
   },
   {
     year: "2016",
