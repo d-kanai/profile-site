@@ -22,7 +22,7 @@ body {
   min-height: 100vh;
   display: grid;
   place-items: center;
-  padding: 32px;
+  padding: 18px;
   font-family: var(--font-geist-sans), "Helvetica Neue", Arial, "Hiragino Sans",
     "Yu Gothic", sans-serif;
   background:
@@ -32,7 +32,7 @@ body {
 }
 
 .sheet {
-  width: min(920px, 100%);
+  width: min(1040px, 100%);
   min-height: 660px;
   overflow: hidden;
   border: 1px solid rgba(255, 250, 241, 0.68);
@@ -111,7 +111,7 @@ h1 {
 
 @media (max-width: 820px) {
   body {
-    padding: 18px;
+    padding: 12px;
     align-items: start;
   }
 
