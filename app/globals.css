@@ -76,6 +76,58 @@ h1 {
   display: grid;
 }
 
+.voices {
+  margin-top: 34px;
+  padding-top: 30px;
+  border-top: 1px solid var(--line);
+}
+
+.section-head {
+  margin-bottom: 18px;
+}
+
+.section-head .eyebrow {
+  margin-bottom: 10px;
+}
+
+.section-head h2 {
+  margin: 0;
+  font-size: clamp(20px, 2.2vw, 26px);
+  line-height: 1.35;
+  letter-spacing: 0;
+}
+
+.voice-list {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 16px;
+  max-width: 920px;
+}
+
+.voice {
+  position: relative;
+  display: grid;
+  gap: 14px;
+  min-height: 190px;
+  padding: 20px;
+  border: 1px solid var(--line);
+  background: rgba(255, 255, 255, 0.3);
+}
+
+.voice-number {
+  color: var(--gold);
+  font-size: 12px;
+  font-weight: 850;
+  letter-spacing: 0.14em;
+}
+
+.voice p {
+  margin: 0;
+  color: var(--deep);
+  font-size: 14px;
+  line-height: 1.88;
+}
+
 .item {
   display: grid;
   grid-template-columns: 100px 1fr;
@@ -122,6 +174,15 @@ h1 {
   .item {
     grid-template-columns: 1fr;
     gap: 8px;
+  }
+
+  .voice-list {
+    grid-template-columns: 1fr;
+  }
+
+  .voice {
+    grid-template-columns: 1fr;
+    gap: 6px;
   }
 }
 
